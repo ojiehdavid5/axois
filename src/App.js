@@ -1,6 +1,5 @@
 import Title from './components/Title';
-import Setup from './examples/5-custom-instance'
-import './axios/global'
+import Setup from './examples/1-first-request'
 function App() {
   return (
     <main>
