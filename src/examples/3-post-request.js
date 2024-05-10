@@ -11,6 +11,9 @@ const PostRequest = () => {
     try {
       const resp = await axios.post(url, { name:name,email:email });
        console.log(name,email);
+
+
+       
        console.log(resp);
 
     } catch (error) {
